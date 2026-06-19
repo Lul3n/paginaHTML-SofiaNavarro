@@ -1,0 +1,87 @@
+.site_skin {
+color:rgb(9, 51, 85);
+font-size: 40px;    
+text-align: center;
+background-color: rgb(176, 207, 207);
+}
+
+body{
+    background-color: rgb(238, 255, 224);
+}
+
+table{
+    background-color: rgb(245, 255, 234);
+    color: rgb(58, 30, 26);
+}
+
+.site_skin2 {
+color: rgb(255, 252, 242);
+background-color: black;
+font-size: 20px;
+text-align: right;
+font-family: sans-serif ;
+}
+
+.divisor {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 130px;
+    border-style:dotted;
+}
+
+.divisor:hover{
+ background-color:  rgb(197, 75, 30);   
+
+}
+
+.divisor:active{
+background-color: brown;
+}
+
+
+
+.cajota {
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    justify-content:space-around;
+    height: 600px;
+    align-items: center;;
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
+
+.nota{
+width: 650px;
+height: 200px;
+background-color: rgb(255, 227, 101);
+border-radius: 10px;
+color: rgb(76, 75, 80);
+display: flex;
+justify-content:space-evenly;
+margin: 20px;
+padding: 20px; 
+font-family:Verdana;
+border-color: rgb(244, 185, 107);
+border-width: 3px;
+border-style:dashed;
+}
+
+.cajainv{
+display:flex;
+flex-direction:row; 
+width: 2000px; 
+height: 240px; 
+margin: 30px; 
+}
+
+
+
+
